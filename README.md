@@ -52,7 +52,7 @@ Vous pouvez vous servir de ces fichiers pour configurer votre serveur DNS
 sudo named-checkconf
 sudo named-checkzone monsite.local /etc/bind/zones/db.monsite.local
 ```
-Si vous n'optenez pas d'erreur c'est tout s'est bien passé
+Si vous n'obtenez pas d'erreur c'est tout s'est bien passé
 
 5. **Redémarrer le service Bind9**
 
@@ -73,6 +73,7 @@ nslookup dns.lion-security.local
 2. **Exemple de résultat**
 
 Dans notre cas, nous avons effectué un test avec les noms de domaines dans notre base de données de noms ainsi vers www.google.com
+
 ![Résultat test avec nslookup](images/dns.png)
 
 ---
